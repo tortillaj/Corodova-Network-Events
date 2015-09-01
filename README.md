@@ -19,3 +19,5 @@ NetworkService.getStatus()
 ```
 
 There are also some network events. When the connectivity status changes from offline to online, `cordova.network.online` fires. Alternatively, when the device or browser goess offline, `cordova.network.offline` is fired. These two events allow you to listen to events if you prefer to work that way.
+
+Finally, as a third alternative, the $rootScope gets set with an isOnline boolean, indicating if the device or browser is connected to a network.
